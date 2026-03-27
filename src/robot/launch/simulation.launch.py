@@ -31,11 +31,9 @@ def generate_launch_description():
         'rover.urdf'
     )
 
-    # Read URDF
     with open(urdf_file, 'r') as infp:
         robot_description = infp.read()
 
-    # Robot State Publisher
     rsp_node = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
