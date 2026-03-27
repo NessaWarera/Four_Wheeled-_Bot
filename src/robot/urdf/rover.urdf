@@ -96,7 +96,7 @@
     <collision name="Base_collision">
       <origin rpy="-1.57033 0.00000 0.00000" xyz="0.00000 0.00000 -0.00380"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -108,7 +108,7 @@
       <material name="Silver"/>
       <origin rpy="1.57103 0.00000 0.00000" xyz="0.00000 -0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -116,7 +116,7 @@
     <collision name="BackLeftMotor_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.05000 -0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.006.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.006.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -128,7 +128,7 @@
       <material name="Silver"/>
       <origin rpy="-0.00000 0.00000 0.00000" xyz="-0.05000 -0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.006.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.006.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -136,7 +136,7 @@
     <collision name="Stand2_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.018.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.018.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -148,7 +148,7 @@
       <material name="Silver"/>
       <origin rpy="-0.00000 0.00000 0.00000" xyz="-0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.018.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.018.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -156,7 +156,7 @@
     <collision name="Stand3_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.019.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.019.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -168,7 +168,7 @@
       <material name="Silver"/>
       <origin rpy="-0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.019.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.019.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -176,7 +176,7 @@
     <collision name="Stand4_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.020.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.020.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -188,7 +188,7 @@
       <material name="Silver"/>
       <origin rpy="-0.00000 0.00000 0.00000" xyz="0.00000 0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.020.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.020.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -196,7 +196,7 @@
     <collision name="Stand5_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00000 -0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.022.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.022.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -208,7 +208,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00000 -0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.022.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.022.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -216,7 +216,7 @@
     <collision name="Stand6_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.023.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.023.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -228,7 +228,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.023.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.023.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -236,7 +236,7 @@
     <collision name="Stand7_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.024.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.024.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -248,7 +248,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.024.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.024.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -256,7 +256,7 @@
     <collision name="Stand9_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00000 -0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.025.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.025.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -268,7 +268,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00000 -0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.025.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.025.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -276,7 +276,7 @@
     <collision name="UpperBaseplate_collision">
       <origin rpy="-1.57081 0.00000 0.00000" xyz="-0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.021.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.021.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -288,7 +288,7 @@
       <material name="Silver"/>
       <origin rpy="-1.57080 0.00000 0.00000" xyz="-0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.021.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.021.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -296,7 +296,7 @@
     <collision name="BackLeftWheel_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00000 -0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.014.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.014.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -308,7 +308,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00000 0.00015 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.014.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.014.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -316,7 +316,7 @@
     <collision name="BackRightMotor_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.05000 0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.003.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.003.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -328,7 +328,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.05000 -0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.003.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.003.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -336,7 +336,7 @@
     <collision name="BackRightWheel_collision">
       <origin rpy="-0.00000 0.00000 0.00000" xyz="0.00000 0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.015.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.015.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -348,7 +348,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.015.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.015.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -356,7 +356,7 @@
     <collision name="FrontLeftMotor_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.05000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.009.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.009.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -368,7 +368,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.05000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.009.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.009.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -376,7 +376,7 @@
     <collision name="FrontLeftWheel_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.013.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.013.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -388,7 +388,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.013.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.013.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -396,7 +396,7 @@
     <collision name="FrontRightMotor_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.05000 -0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.012.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.012.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -408,7 +408,7 @@
       <material name="Silver"/>
       <origin rpy="-0.00000 0.00000 0.00000" xyz="0.05000 -0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.012.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.012.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -416,7 +416,7 @@
     <collision name="FrontRightWheel_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.016.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.016.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -428,7 +428,7 @@
       <material name="Silver"/>
       <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.016.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.016.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
@@ -436,7 +436,7 @@
     <collision name="Stand1_collision">
       <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00000 0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.017.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.017.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </collision>
     <inertial>
@@ -448,7 +448,7 @@
       <material name="Silver"/>
       <origin rpy="-0.00000 0.00000 0.00000" xyz="-0.00000 0.00000 -0.00000"/>
       <geometry>
-        <mesh filename="../meshes/stl/Assem1.017.stl" scale="0.00100 0.00100 0.00100"/>
+        <mesh filename="file://$(find robot)/meshes/stl/Assem1.017.stl" scale="0.00100 0.00100 0.00100"/>
       </geometry>
     </visual>
   </link>
