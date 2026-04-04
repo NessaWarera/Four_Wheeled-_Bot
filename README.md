@@ -8,7 +8,7 @@ This project aims to launch and simulate a robot in Gazebo. This repository serv
 4. Gazebo Harmonic
 5. Ubuntu or WSL2 
 
-**TIP**
+**TIP:**
 If your hardware cannot support the software mentioned above, you can use Github codespaces. By properly configuring it with ROS2 and VNC support, you can run the entire simulation in Codespaces.
 
 
