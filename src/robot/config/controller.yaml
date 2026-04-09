@@ -33,13 +33,4 @@ diff_drive_controller:
     odom_frame_id: odom
     base_frame_id: Base_link
 
-    # Limits
-    linear:
-      x:
-        has_velocity_limits: true
-        max_velocity: 1.0
-
-    angular:
-      z:
-        has_velocity_limits: true
-        max_velocity: 2.0
+   
