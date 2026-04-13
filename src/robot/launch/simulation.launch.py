@@ -17,20 +17,22 @@ def generate_launch_description():
         'world',
         'world.sdf'
     )
-    urdf_file = os.path.join(
-        get_package_share_directory(package_name),
-        'urdf',
-        'rover.urdf'  
-    )
+   
     controller_file = os.path.join(
         get_package_share_directory(package_name), 
         'config', 
         'controller.yaml'
     )
-  
+
+    urdf_file = os.path.join(
+    get_package_share_directory('robot'),
+    'urdf',
+    'rover.urdf.xacro'
+     )
+
     robot_description = ParameterValue(
-        Command(['xacro', urdf_file]),
-        value_type=str
+    Command(['xacro ', urdf_file]),
+    value_type=str
     )
 
     # Robot State Publisher
