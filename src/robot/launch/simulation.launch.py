@@ -27,7 +27,7 @@ def generate_launch_description():
     urdf_file = os.path.join(
     get_package_share_directory('robot'),
     'urdf',
-    'rover.urdf.xacro'
+    'rover.urdf'
      )
 
     robot_description = ParameterValue(
